@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#first
+{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(https://analyticsindiamag.com/wp-content/uploads/2019/05/apps.55787.9007199266246365.687a10a8-4c4a-4a47-8ec5-a95f70d8852d.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    height: 100vh;
+    width: auto;
+    color: white;
+}
+#Signin
+{
+    color: white;
+    width: 100px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+#box
+{
+    background-color: transparent;
+    color: white;
+    height: 40px;
+    font-size: 15px;
+    padding: 0 15px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+#content h1
+{
+    font-size: 70px;
+ color: white;
+    font-weight: 900;
+}
+#content p
+{
+    font-size: 20px;
+}
+#box option
+{
+    background-color: white;
+    color:black;
+}
+#email
+{
+    width: 350px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: transparent;
+}
+#getstarted
+{
+    height: 50px;
+    margin-top: 10px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.second-part{
+    background-color: black;
+}
+section h2{
+color: white;
+margin-left: 10%;
+}
+.carousel-inner{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.carousel-inner img{
+   height: 20%;
+   width: 15%;
+   cursor: pointer;
+
+}
+.more h2{
+    color: white;
+    margin-left: 10%;
+}
+.card{
+    margin-left: 10%;
+    margin-right: 15%;
+    background: linear-gradient(90deg,#10164a 40%, #301c3a 80%);
+    width: 93%;
+    height: 40%;
+    
+    color: white;
+}
+.card h5{
+    color: white;
+    font-size: 23px;
+}
+.card p{
+    color: rgb(159, 151, 163);
+    font-size: 17px;
+}
+.card img{
+    width: 15%;
+    margin-left: 83%;
+    height: 20%;
+}
+section img:hover{
+    transform:scale(1.2,1.2);
+    opacity: 0.8;
+}
+.faq {
+    padding: 10px 12%;
+margin-left: 0;
+    font-size: 18px;
+    color: white;
+}
+
+.faq h2 {
+    font-size: 30px;
+    margin-left: 0%;
+   
+}
+
+.accordion {
+  
+    width: 90%;
+   
+}
+
+.accordion li {
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+
+.accordion li label {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+   
+}
+.accordion label:hover{
+    background-color: grey;
+}
+
+label::after {
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+    transition: transform 0.5s;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.accordion .content {
+    background-color: #303030;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+}
+
+.accordion input[type="radio"]:checked + label + .content {
+    max-height: 600px;
+    padding: 30px 20px;
+}
+
+.accordion input[type="radio"]:checked + label::after {
+    transform: rotate(135deg);
+}
+.form-select{
+    width: 350px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: transparent;
+}
+.rememeber1{
+    color: white;
+    margin-left: 24%;
+}
+
+.final p{
+    margin-left:32%;
+    font-size: 20px;
+    color: white;
+}
+.footer {
+    margin-left: 0;
+    padding: 40px 15% 10px;
+    color: hsl(0, 0%, 44%);
+}
+
+.footer h2 {
+    font-size: 18px;
+    margin-left: 0;
+   
+}
+
+.footer .col a {
+    display: block;
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.footer .row {
+    align-items: flex-start;
+    padding: 10px 0px;
+}
+#box2
+{
+    background-color: black;
+    color:white;
+    width: 0%;
+    background-color: transparent;
+    color: white;
+    height: 40px;
+    font-size: 15px;
+    padding: 0 15px;
+    margin-right: 10px;
+    font-weight: bold;
+
+}
+
+
+.copyright-text {
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .logo {
+        width: 100px;
+    }
+
+    .faq h2 {
+        font-size: 20px;
+    }
+
+    .accordion .content {
+        font-size: 14px;
+    }
+
+    .accordion li label {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    label::after {
+        font-size: 22px;
+    }
+}
